@@ -1,0 +1,236 @@
+.AddCart{
+    width: 470px;
+    margin: 10px;
+height: 56px;
+border-radius: 10px ;
+border: 1px solid rgba(255, 126, 27, 1);
+background: rgba(255, 126, 27, 1);
+box-shadow: 0px 20px 50px -20px rgba(255, 126, 27, 1);
+color: white;
+font-size: 20px;
+margin-top:50px ;
+}
+.market-icon2{
+    width: 19px;
+    height: 19px;
+}
+.Text{
+    font-size: 15px;
+    max-width: 300px;
+    line-height: 25px;
+    text-align: left;
+    margin: 20px;
+    color: rgba(105, 112, 125, 1);
+    
+
+}
+.TextTitle{
+font-size: 28px;
+font-weight: 700;
+max-width: 300px;
+text-align: left;
+color: rgba(29, 32, 38, 1);
+padding: 20px;
+}
+.flex{
+    display: flex;
+}
+.DiscountPrice{
+font-size: 32px;
+font-weight: 700;
+text-align: left;
+margin: 20px;
+color: rgba(29, 32, 38, 1);
+}
+.RealPrice{
+    font-family: Kumbh Sans;
+font-size: 22px;
+font-weight: 700;
+line-height: 26px;
+text-decoration-line: line-through;
+color: rgba(182, 188, 200, 1);
+margin-top: 25px;
+margin-left: 50px;
+}
+.Discount{
+font-size: 16px;
+font-weight: 700;
+padding-left: 10px;
+padding-top: 5px;
+width: 50px;
+border-radius: 10px;
+height: 30px;
+margin-top: 20px;
+background: rgba(255, 238, 226, 1);
+color: rgba(255, 126, 27, 1);
+margin-left: 20px;
+
+
+}
+.box{
+    margin: 30px;
+}
+.box2{
+    width: 470px;
+    margin: 10px;
+height: 56px;
+border-radius: 10px;
+background: rgba(246, 248, 253, 1);
+display: flex;
+}
+.count{
+font-size: 18px;
+font-weight: 700;
+color: rgba(29, 32, 38, 1);
+ margin-left: 180px;
+ margin-top: 15px;
+}
+.addition,.deduction{
+color: rgba(255, 126, 27, 1);
+font-size: 30px;
+border: none;
+margin-top: 0px;
+background: none;
+}
+.addition{
+    margin-left: 180px;
+}
+.deduction{
+    margin-left: 30px;
+}
+.CartBox{
+    width: 440px;
+border-radius: 10px ;
+box-shadow: 0px 20px 50px -20px rgba(29, 32, 38, 0.5031);
+background: rgba(255, 255, 255, 1);
+margin: 30px;
+height: 240px;
+position: relative;
+top: 10px;
+z-index: 100px;
+}
+.deleteBtn{
+    border: none;
+    background: none;
+    position: relative;
+    top: 45px;
+    width: 20px;
+    height: 2px;
+    right: 150px;
+}
+.CheckoutBtn{
+    width: 90%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(255, 126, 27, 1);
+    position: relative;
+    top: 100px;
+    margin-left: 20px;
+}
+.row{
+    background-color: gray;
+    height: 2px;
+     width: 100%;
+}
+.marketTitle{
+font-size: 20px;
+text-align: left;
+padding: 20px;
+} 
+
+.flex2{
+    display: flex;
+    position: absolute;
+
+}
+.CartName,.CartTitle2,.CartTitle3{
+    font-size: 16px;
+    color: rgba(105, 112, 125, 1);
+ max-width: 300px;
+}
+.CartTitle2{
+    position: relative;
+   top: 50px;
+    right: 180px;
+}
+.CartTitle{
+    padding: 20px;
+    font-size:17px ;
+}
+.CartTitle3{
+    position: relative;
+   top: 50px;
+    right: 170px;
+}
+.cart-container {
+    position: absolute; 
+    top: 50px;
+    left: 70%;
+    transform: translateX(-50%); 
+    z-index: 10; 
+    border-radius: 10px;
+  }
+
+.CartImg{
+    margin: 20px;
+}
+.CartName{
+    margin-top: 10px;
+}
+.TextTitle2{
+    font-family: Kumbh Sans;
+font-size: 13px;
+margin-left: 20px;
+line-height: 16.12px;
+text-underline-position: from-font;
+color: rgba(255, 126, 27, 1);
+
+}
+.empty-cart-text{
+    font-family: Kumbh Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 26px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(105, 112, 125, 1);
+margin-top: 60px;
+}
+
+@media (min-width: 1020px) {
+    .box{
+        position: absolute;
+        top: 100px;
+        left: 550px;
+        margin-top: 100px;
+    }
+    .box2{
+        right: 100px;
+        width: 170px;
+        margin-top: 50px;
+    }
+    .box3{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 300px;
+
+    }
+    .addition,.count{
+        margin-left: 40px;
+    }
+    .AddCart{
+        width: 250px;
+        margin-right: 100px;
+    }
+    .TextTitle2{
+        padding-top: 0px;
+    }
+}
+@media (max-width:1020px) {
+    .CartBox{
+        margin-right: 200px;
+    }
+}
